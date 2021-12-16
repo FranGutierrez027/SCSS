@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss",
+		"../scss/_variables.scss",
+		"../scss/_main.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\r\n@import \"main\";",
+		"$bgColor: #221c1c;",
+		"@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');\r\n*{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n}\r\n#Banner{\r\n\theight: 100vh;\r\n\twidth: 100vw;\r\n\tbackground-image: url(../IMG/bela.jpg);\r\n\tbackground-repeat: no-repeat;\r\n\tbackground-size: contain;\r\n\tbackground-position: center;\r\n\tbackground-color: $bgColor;\r\n\t\r\n}\r\n.titulo1{\r\n\tp{\r\n\tcolor: red;\r\n\tfont-weight: bold;\r\n\tfont-size: 40px;\r\n\ttext-decoration: underline;\r\n\ttext-align: center;\r\n\tmargin: 20px;\r\n\t}\r\n}\r\n.div{\r\n\tbackground-color: #221c1c;\r\n\tp{\r\n\t\tfont-family: 'Raleway', sans-serif;\r\n\t\tfont-weight: 250;\r\n\t\tfont-size: 30px;\r\n\t\tbackground-color: $bgColor;\r\n\t\tcolor: red;\r\n\t\tline-height: 1.5;\r\n\t\tpadding: 30px;\r\n\t}\r\n}\r\n.parejas {\r\n\tfont-family: 'Raleway', sans-serif;\r\n\tfont-weight: 250;\r\n\tfont-size: 30px;\r\n\tbackground-color: $bgColor;\r\n\tcolor: red;\r\n\tlist-style-type: square;\r\n\tlist-style-position: inside;\r\n\t\tul{\r\n\t\t\tpadding: 30px;\r\n\t}\r\n\t}\r\n#parejassinlinea{\r\n\tli{\r\n\t\ta{\r\n\t\t\ttext-decoration: none;\r\n\t\t\tpadding: 30px;\r\n\t\t}\r\n\t}\r\n}\r\n#PICS {\r\n\tmargin-top: 10px;\r\n\tpadding-right: \t400px;\r\n\tpadding-left: \t500px;\r\n\tbackground-color: $bgColor;\t\r\n}"
+	],
+	"names": [],
+	"mappings": "AEAA,OAAO,CAAC,oEAAI;;AACZ,AAAA,CAAC,CAAA;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACV;;;AACD,AAAA,OAAO,CAAA;EACN,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,oBAAoB;EACtC,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,OAAO;EACxB,mBAAmB,EAAE,MAAM;EAC3B,gBAAgB,EDZP,OAAO;CCchB;;;AACD,AACC,QADO,CACP,CAAC,CAAA;EACD,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,SAAS;EAC1B,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;CACX;;;AAEF,AAAA,IAAI,CAAA;EACH,gBAAgB,EAAE,OAAO;CAUzB;;;AAXD,AAEC,IAFG,CAEH,CAAC,CAAA;EACA,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,gBAAgB,ED/BR,OAAO;ECgCf,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,IAAI;CACb;;;AAEF,AAAA,QAAQ,CAAC;EACR,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,gBAAgB,EDzCP,OAAO;EC0ChB,KAAK,EAAE,GAAG;EACV,eAAe,EAAE,MAAM;EACvB,mBAAmB,EAAE,MAAM;CAI1B;;;AAXF,AAQE,QARM,CAQN,EAAE,CAAA;EACD,OAAO,EAAE,IAAI;CACd;;;AAEF,AAEE,gBAFc,CACf,EAAE,CACD,CAAC,CAAA;EACA,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,IAAI;CACb;;;AAGH,AAAA,KAAK,CAAC;EACL,UAAU,EAAE,IAAI;EAChB,aAAa,EAAG,KAAK;EACrB,YAAY,EAAG,KAAK;EACpB,gBAAgB,ED7DP,OAAO;CC8DhB"
+}
